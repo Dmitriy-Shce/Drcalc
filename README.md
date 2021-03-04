@@ -19,3 +19,7 @@
 </select>
 <select name="city" id="city">
 </select>
+* {
+  font-size: 20px;
+  padding: 2px;
+}
