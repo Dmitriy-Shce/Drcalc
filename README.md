@@ -1,39 +1,21 @@
-# Drcalc
-Drilling calculations
-<div class="right">
-<body>
-  <table width="500" cellspacing="10" border="1">
-    <col wigth="50">
-    <col span="3" width="50" align="center">
-    <col span="3" width="50" align="center">
-    <tr>
-      <td>&nbsp;</td><td>1</td><td>2</td><td>3</td>
-    </tr>
-    <tr>
-      <td>длина, м</td></td><td>
-        <input type="number" id="inp1">
-        </td>
-        <td>
-          <span id="res1"> </span>
-          <script>
-            inp1.oninput=function(){
-              res1.innerHTML=inp1.value*2;
-            };
-            </script>
-          </td>
-          <td>
-           <span id="res2"> </span>
-          <script>
-            inp1.onchange=function(){
-              res2.innerHTML=2*res1.innerHTML;
-            };
-            </script>
-          </td>
-    </tr>
-    <tr>
-      <td>2</td></td><td>1</td><td>2</td><td>3</td>
-    </tr>
-    <tr>
-      <td>3</td></td><td>1</td><td>2</td><td>3</td>
-    </tr>
-</div>
+<select name="country" id="country">
+  <option value="159" selected>159</option>
+  <option value="219">219</option>
+  <option value="273">273</option>
+  <option value="325">325</option>
+  <option value="377">377</option>
+  <option value="426">426</option>
+  <option value="530">530</option>
+  <option value="630">630</option>
+  <option value="720">720</option>
+  <option value="820">820</option>
+  <option value="920">920</option>
+  <option value="1020">1020</option>
+  <option value="1220">1220</option>
+  <option value="1420">1420</option>
+  <option value="1620">1620</option>
+  <option value="1720">1720</option>
+  <option value="1820">1820</option>
+</select>
+<select name="city" id="city">
+</select>
